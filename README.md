@@ -2,6 +2,8 @@
 
 This is an introduction to Azure Databricks.
 
+Azure Databricks is a scalable platform for data analytics in Microsoft Azure. You can use Azure Databricks to build highly scalable solutions for data science and engineering, machine learning, and SQL-based data analytics.
+
 Pre-requisites:
 - Azure subscription
 - [Azure Databricks workspace](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Databricks%2Fworkspaces)
@@ -9,6 +11,11 @@ Pre-requisites:
 Select your workspace and click on `Launch Workspace` to open the Databricks workspace.
 
 ## Create a cluster
+
+An Azure Databricks cluster is a set of computation resources and configurations on which you run workloads (e.g. machine learning).
+In Azure Databricks, there is a distinction between clusters:
+- All-purpose clusters: to analyze data collaboratively using interactive notebooks
+- Job clusters: to run automated jobs.
 
 Create a cluster by clicking on `New` > `Clusters` on the left menu, then choose the relevant configuration for your cluster.
 
@@ -24,3 +31,4 @@ Create a notebook by clicking on `New` > `Notebook` on the left menu.
 
 You can read the data, display it and even create visualizations.
 See the notebook for more details.
+
