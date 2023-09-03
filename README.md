@@ -11,8 +11,8 @@ Repository structure:
 Azure Databricks is a scalable platform for data analytics in Microsoft Azure. You can use Azure Databricks to build highly scalable solutions for data science and engineering, machine learning, and SQL-based data analytics.
 
 Pre-requisites:
-- Azure subscription
-- [Azure Databricks workspace](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Databricks%2Fworkspaces)
+- An active Azure subscription
+- An [Azure Databricks workspace](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Databricks%2Fworkspaces)
 
 Select your workspace and click on `Launch Workspace` to open the Databricks workspace.
 
