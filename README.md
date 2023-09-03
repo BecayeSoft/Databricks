@@ -4,7 +4,7 @@ This is an introduction to Azure Databricks.
 
 Repository structure:
 
-- Explore products.ipynb: The notebook that contains the code.
+- `Explore products.ipynb`: The notebook that contains the code.
 - `Key Concepts.md`: Key concepts of Databricks.
 - `Apache Spark.md`: An overview of Spark infrastructure, clusters and how to create them on Azure.
 
