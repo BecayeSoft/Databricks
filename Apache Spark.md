@@ -43,3 +43,6 @@ When creating the cluster, you can specify configuration settings, including:
 When creating a cluster, you define VM types and other settings, but Azure Databricks handles the cluster's management. It uses Azure Kubernetes Service (AKS) for control and data planes, leveraging Azure's latest hardware for improved Spark performance. All cluster metadata is stored in an Azure Database with fault tolerance. You manage the cluster through the Azure Databricks UI, benefiting from features like auto-scaling and auto-termination.
 
 ![image](https://github.com/BecayeSoft/Databricks/assets/87549214/830e4116-bf08-4ff8-bd41-29cf63149a8b)
+
+## References
+- https://learn.microsoft.com/en-us/training/modules/use-apache-spark-azure-databricks/03-spark-cluster
