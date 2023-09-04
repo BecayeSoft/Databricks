@@ -12,9 +12,29 @@ Azure Databricks is a scalable platform for data analytics in Microsoft Azure. Y
 
 Pre-requisites:
 - An active Azure subscription
-- An [Azure Databricks workspace](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Databricks%2Fworkspaces)
 
-Select your workspace and click on `Launch Workspace` to open the Databricks workspace.
+## 1. Clone the repository
+
+```bash
+git clone https://github.com/BecayeSoft/Databricks
+```
+
+## Create a Databricks Workspace
+
+### Option 1: Using the Azure Portal
+
+- Create a Workspace: [Azure Databricks workspace](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Databricks%2Fworkspaces)
+- Select your workspace and click on `Launch Workspace` to open the Databricks workspace.
+
+### Option 2: Using the Azure CLI
+
+- Select the [>_] button to the right of the search bar at the top of the page to create a new Cloud Shell in the Azure portal
+- Run the command below to create a resource group and a Databricks workspace
+
+```bash
+cd Databricks
+./setup.ps1         # or setup.ps1 <your_region>
+```
 
 ## Create a cluster
 
@@ -24,6 +44,8 @@ In Azure Databricks, there is a distinction between clusters:
 - Job clusters: to run automated jobs.
 
 Create a cluster by clicking on `New` > `Clusters` on the left menu, then choose the relevant configuration for your cluster.
+
+If you plan to train Machine Learning models, you can use GPU-enabled clusters.
 
 ## Create a notebook
 
